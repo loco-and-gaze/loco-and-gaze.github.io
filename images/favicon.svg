@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="eye_c"><path d="M6 32 Q32 8 58 32 Q32 56 6 32 Z"/></clipPath>
+    <radialGradient id="eye_bg" cx="32" cy="26" r="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="60%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#081b3a"/>
+    </radialGradient>
+    <radialGradient id="eye_iris" cx="32" cy="32" r="13" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#eye_bg)"/>
+  <path d="M6 32 Q32 8 58 32 Q32 56 6 32 Z" fill="#eff6ff"/>
+  <g clip-path="url(#eye_c)">
+    <circle cx="32" cy="32" r="13" fill="url(#eye_iris)"/>
+    <circle cx="32" cy="32" r="5.5" fill="#081b3a"/>
+  </g>
+  <circle cx="36" cy="28" r="2.2" fill="#ffffff"/>
+</svg>
